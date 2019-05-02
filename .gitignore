@@ -1,12 +1,29 @@
-*.class
+# Spring Boot Maven Archetype
+!.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+HELP.md
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Binaries
+/target/
+*.class
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
+# Log
+log
+
+# Eclipse #
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
